@@ -46,3 +46,32 @@
 //     let b = ((a + 99) / 100) | 0;
 //     document.getElementById('result').innerText = "Thế kỷ: " + b;
 // }
+
+
+// e,Nhập vào a, b, c, kiểm tra xem a, b, c có phải là 3 cạnh của:
+//     1 tam giác?
+//     1 tam giác cân?
+//     1 tam giác đều?
+//     1 tam giác vuông?
+
+function Check() {
+
+    let a = +(document.getElementById('a').value);
+    let b = +(document.getElementById('b').value);
+    let c = +(document.getElementById('c').value);
+    if (a + b > c && a + c > b && b + c > a) {
+        let result = "Đây là một tam giác ";
+        if (a === b && b === c) {
+            result += "đều";
+        } else if (a === b || a === c || b === c) {
+            result += "cân";
+        } else if (a * a + b * b === c * c || a * a + c * c === b * b || b * b + c * c === a * a) {
+            result += "vuông";
+        } else {
+            result += "thường";
+        }
+        document.getElementById('result').innerText = result;
+    } else {
+        document.getElementById('result').innerText = "3 cạnh này không phải là 3 cạnh của 1 tam giác";
+    }
+}
