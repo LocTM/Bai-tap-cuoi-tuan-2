@@ -19,3 +19,14 @@
 //     document.getElementById("result1").innerHTML = "Đây là chu vi hình vuông: " + P;
 //     document.getElementById("result2").innerHTML = "Đây là diện tích hình vuông: " + S;
 // }
+
+// b,Nhập vào a và b, tính a^2, a^b
+// function tinhtoan() {
+//     let a = +document.getElementById("a").value;
+//     let b = +document.getElementById("b").value;
+//     let c = a ** b;
+//     let d = a ** 2;
+//     document.getElementById("result1").innerHTML = "Đây là a^b: " + c;
+//     document.getElementById("result2").innerHTML = "Đây là a^2:" + d;
+// }
+
