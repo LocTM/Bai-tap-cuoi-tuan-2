@@ -41,7 +41,6 @@
 
 // d,Nhập vào a là năm, in ra thế kỷ.
 // function tinhtoan() {
-//
 //     let a = +(document.getElementById("a").value);
 //     let b = ((a + 99) / 100) | 0;
 //     document.getElementById('result').innerText = "Thế kỷ: " + b;
@@ -55,7 +54,6 @@
 //     1 tam giác vuông?
 
 function Check() {
-
     let a = +(document.getElementById('a').value);
     let b = +(document.getElementById('b').value);
     let c = +(document.getElementById('c').value);
