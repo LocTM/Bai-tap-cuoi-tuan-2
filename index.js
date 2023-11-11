@@ -34,8 +34,8 @@
 // function tinhtoan() {
 //     let a = +document.getElementById("a").value;
 //     let b = +document.getElementById("b").value;
-//     let n = +document.getElementById("n").value;
-//     let S = n * (a + b) / 2;
+//     let S = ((b - a + 1) * (a + b)) / 2;
 //     document.getElementById("result").innerHTML = "Đây là tổng của dãy số trên S = " + S;
 //
 // }
+
