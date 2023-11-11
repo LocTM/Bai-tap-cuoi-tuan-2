@@ -27,6 +27,15 @@
 //     let c = a ** b;
 //     let d = a ** 2;
 //     document.getElementById("result1").innerHTML = "Đây là a^b: " + c;
-//     document.getElementById("result2").innerHTML = "Đây là a^2:" + d;
+//     document.getElementById("result2").innerHTML = "Đây c a^2:" + d;
 // }
 
+// c,Nhập vào a và b, tính tổng các số từ a đến b
+// function tinhtoan() {
+//     let a = +document.getElementById("a").value;
+//     let b = +document.getElementById("b").value;
+//     let n = +document.getElementById("n").value;
+//     let S = n * (a + b) / 2;
+//     document.getElementById("result").innerHTML = "Đây là tổng của dãy số trên S = " + S;
+//
+// }
